@@ -1,6 +1,5 @@
-// src/App.tsx
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Product, products } from "./data";
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -31,7 +30,7 @@ const App: React.FC = () => {
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
 
     return (
-        <Router>
+        <HashRouter>
             <Header cartCount={totalItems} />
                 <main className="main">
                     <Routes>
@@ -46,7 +45,7 @@ const App: React.FC = () => {
                     </Routes>
                 </main>
             <Footer />
-        </Router>
+        </HashRouter>
     );
 };
 

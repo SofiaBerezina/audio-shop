@@ -1,4 +1,3 @@
-// src/components/Card.tsx
 import React from 'react';
 import {Product} from '../data';
 

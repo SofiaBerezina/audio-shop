@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                 </ul>
 
                 <div className="language-changer">
-                    <img src="../assets/icons/language.svg" alt="language-icon" className="language-changer__icon"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/icons/language.svg`} alt="language-icon" className="language-changer__icon"/>
                     <button className="language-changer__button" data-language="ru">Рус</button>
                     <button className="language-changer__button" data-language="en">Eng</button>
                 </div>

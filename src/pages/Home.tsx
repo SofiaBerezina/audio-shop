@@ -1,4 +1,3 @@
-// src/pages/Home.tsx
 import React from 'react';
 import Catalogue from "../components/Catalogue";
 import { Product } from "../data";
@@ -21,7 +20,7 @@ const Home: React.FC<HomeProps> = ({ categories, addToCart }) => {
 
                 return (
                     <Catalogue
-                        key={category} // Важно добавить key!
+                        key={category}
                         categoryTitle={category}
                         catalogueProducts={catalogueProducts}
                         addToCart={addToCart}

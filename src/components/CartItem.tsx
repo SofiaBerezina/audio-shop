@@ -26,14 +26,14 @@ const CartItem: React.FC<CartItemProps> = ({item, updateQuantity, removeItem}) =
                     onClick={() => updateQuantity(product.id, quantity - 1)}
                     disabled={quantity <= 1}
                 >
-                    <img src="../assets/icons/minus.svg" alt="minus-icon" className="minus-icon"/>
+                    <img src="/icons/minus.svg" alt="minus-icon" className="minus-icon"/>
                 </button>
                 <span className="item__quantity">{quantity}</span>
                 <button
                     className="item__amount-control-button plus"
                     onClick={() => updateQuantity(product.id, quantity + 1)}
                 >
-                    <img src="../assets/icons/plus.svg" alt="plus-icon" className="plus-icon"/>
+                    <img src="/icons/plus.svg" alt="plus-icon" className="plus-icon"/>
                 </button>
             </div>
 
@@ -48,7 +48,7 @@ const CartItem: React.FC<CartItemProps> = ({item, updateQuantity, removeItem}) =
                     onClick={() => removeItem(product.id)}
                     aria-label="Удалить товар"
                 >
-                    <img src="../assets/icons/bin.svg" alt="bin-icon" className="remove-icon"/>
+                    <img src="/icons/bin.svg" alt="bin-icon" className="remove-icon"/>
                 </button>
 
                 <span className="item__total-price">{priceFormatter.format(totalPrice)} ₽</span>
