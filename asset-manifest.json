@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/audio-shop/static/css/main.f03723f3.css",
-    "main.js": "/audio-shop/static/js/main.03ba202a.js",
+    "main.js": "/audio-shop/static/js/main.8a059b2f.js",
     "index.html": "/audio-shop/index.html",
     "static/media/star.svg": "/audio-shop/static/media/star.49f549311a2f8d6febba.svg",
     "main.f03723f3.css.map": "/audio-shop/static/css/main.f03723f3.css.map",
-    "main.03ba202a.js.map": "/audio-shop/static/js/main.03ba202a.js.map"
+    "main.8a059b2f.js.map": "/audio-shop/static/js/main.8a059b2f.js.map"
   },
   "entrypoints": [
     "static/css/main.f03723f3.css",
-    "static/js/main.03ba202a.js"
+    "static/js/main.8a059b2f.js"
   ]
 }
