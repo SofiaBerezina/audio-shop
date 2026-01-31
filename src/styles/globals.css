@@ -38,6 +38,7 @@ section {
     display: flex;
     flex-direction: column;
     margin-top: 1.75rem;
+    width: 100%;
 }
 
 button {
@@ -55,3 +56,22 @@ a {
 a:hover, button:hover {
     color: var(--color-text-secondary)
 }
+
+@media (min-width: 365px) {
+    body {
+        padding-inline: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

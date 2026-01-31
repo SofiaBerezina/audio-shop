@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ cartCount }) => {
                     </svg>
 
                     <div className="counter">
-                        <span className="counter__value">0</span>
+                        <span className="counter__value">2</span>
                     </div>
                 </button>
                 <Link to="/cart" className="user-controls__cart-button">
@@ -26,9 +26,11 @@ const Header: React.FC<HeaderProps> = ({ cartCount }) => {
                               fill="currentColor"/>
                     </svg>
 
-                    <div className="counter">
-                        <span className="counter__value">{cartCount}</span>
-                    </div>
+                    {cartCount > 0 && (
+                        <div className="counter">
+                            <span className="counter__value">{cartCount}</span>
+                        </div>
+                    )}
                 </Link>
             </div>
         </header>

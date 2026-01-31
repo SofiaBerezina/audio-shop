@@ -6,4 +6,28 @@
   width: 100%;
 }
 
+@media (min-width: 365px) {
+  .section__container {
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 399px);
+  }
+}
+@media (min-width: 768px) {
+  .section__container {
+    max-width: 742px;
+    gap: var(--grid-gap);
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 350px);
+  }
+}
+@media (min-width: 1440px) {
+  .section__container {
+    max-width: 1440px;
+    column-gap: unset;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=card-container.css.map */
