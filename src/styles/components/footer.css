@@ -8,7 +8,6 @@
   border-top-right-radius: 1.875rem;
   font-size: var(--text-font-size);
   margin-top: 1.25rem;
-  min-width: 399px;
 }
 .footer .footer-nav, .footer .footer-nav__list {
   display: flex;
