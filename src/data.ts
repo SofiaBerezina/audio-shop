@@ -13,7 +13,7 @@ export const products: Product[] = [
         name: "Apple BYZ S852I",
         price: 2927,
         rating: 4.7,
-        image: '/images/apple-BYZ.jpg',
+        image: 'images/apple-BYZ.jpg',
         category: "Наушники"
     },
     {
@@ -21,7 +21,7 @@ export const products: Product[] = [
         name: "Apple EarPods",
         price: 2327,
         rating: 4.5,
-        image: "/images/apple-earpods.jpg",
+        image: "images/apple-earpods.jpg",
         category: "Наушники"
     },
     {
@@ -29,7 +29,7 @@ export const products: Product[] = [
         name: "Apple EarPods",
         price: 2327,
         rating: 4.5,
-        image: "/images/apple-earpods-with-case.jpg",
+        image: "images/apple-earpods-with-case.jpg",
         category: "Наушники"
     },
     {
@@ -37,7 +37,7 @@ export const products: Product[] = [
         name: "Apple AirPods",
         price: 9527,
         rating: 4.9,
-        image: "/images/apple-airpods.jpg",
+        image: "images/apple-airpods.jpg",
         category: "Беспроводные наушники"
     },
     {
@@ -45,7 +45,7 @@ export const products: Product[] = [
         name: "GERLAX GH-04",
         price: 6527,
         rating: 4.7,
-        image: "/images/gerlax.jpg",
+        image: "images/gerlax.jpg",
         category: "Беспроводные наушники"
     },
     {
@@ -53,7 +53,7 @@ export const products: Product[] = [
         name: "BOROFONE BO4",
         price: 7527,
         rating: 4.8,
-        image: "/images/borofone.jpg",
+        image: "images/borofone.jpg",
         category: "Беспроводные наушники"
     },
 ];
