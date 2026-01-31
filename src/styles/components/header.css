@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-width: 399px;
 }
 
 .user-controls {
@@ -24,7 +25,7 @@
   font-size: var(--links-font-size);
   font-weight: var(--counter-font-weight);
   top: -0.505rem;
-  right: -0.505rem;
+  right: -0.405rem;
   background-color: var(--color-accent-primary);
   border-radius: 50%;
   width: 1.125rem;
