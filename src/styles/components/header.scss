@@ -9,8 +9,11 @@
   align-items: center;
   gap: 2.8125rem;
 
-  &__button {
+  &__cart-button, &__favourite-button {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .counter {
       position: absolute;
@@ -20,8 +23,8 @@
       color: var(--color-background-secondary);
       font-size: var(--links-font-size);
       font-weight: var(--counter-font-weight);
-      top: -0.305rem;
-      right: -0.205rem;
+      top: -0.505rem;
+      right: -0.505rem;
       background-color: var(--color-accent-primary);
       border-radius: 50%;
       width: 1.125rem;

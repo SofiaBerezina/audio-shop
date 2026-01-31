@@ -2,8 +2,12 @@ body {
     padding: 0.9375rem 11.375rem 0 11.375rem;
     font-family: var(--font-family), sans-serif;
     background-color: var(--color-background-primary);
+}
+
+#root {
     display: flex;
     flex-direction: column;
+    min-height: 100dvh;
     justify-content: space-between;
 }
 
@@ -11,6 +15,10 @@ body {
     color: var(--color-links-secondary);
     font-weight: var(--logo-font-weight);
     font-size: var(--logo-font-size);
+}
+
+.main {
+    flex: 1;
 }
 
 h2 {

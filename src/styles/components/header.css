@@ -9,10 +9,13 @@
   align-items: center;
   gap: 2.8125rem;
 }
-.user-controls__button {
+.user-controls__cart-button, .user-controls__favourite-button {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.user-controls__button .counter {
+.user-controls__cart-button .counter, .user-controls__favourite-button .counter {
   position: absolute;
   display: flex;
   align-items: center;
@@ -20,8 +23,8 @@
   color: var(--color-background-secondary);
   font-size: var(--links-font-size);
   font-weight: var(--counter-font-weight);
-  top: -0.305rem;
-  right: -0.205rem;
+  top: -0.505rem;
+  right: -0.505rem;
   background-color: var(--color-accent-primary);
   border-radius: 50%;
   width: 1.125rem;
