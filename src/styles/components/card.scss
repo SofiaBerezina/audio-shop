@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.375rem 1.625rem;
+  border-radius: var(--border-radius);
+  background-color: var(--color-background-secondary);
+  min-height: 407px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+  &__content {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    row-gap: 1.5rem;
+    font-size: var(--text-font-size);
+    font-weight: var(--headers-font-weight);
+  }
+
+  &__rate {
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+
+    &:before {
+      content: url("../../assets/icons/Vector.svg");
+    }
+  }
+
+  &__price {
+    text-align: right;
+    color: var(--color-accent-primary);
+  }
+
+  &__buy-button {
+    text-align: right;
+    color: var(--color-text-primary);
+    font-size: var(--text-font-size);
+    font-weight: var(--headers-font-weight);
+  }
+}

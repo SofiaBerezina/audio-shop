@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-controls {
+  display: flex;
+  align-items: center;
+  gap: 2.8125rem;
+
+  &__button {
+    position: relative;
+
+    .counter {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-background-secondary);
+      font-size: var(--links-font-size);
+      font-weight: var(--counter-font-weight);
+      top: -0.305rem;
+      right: -0.205rem;
+      background-color: var(--color-accent-primary);
+      border-radius: 50%;
+      width: 1.125rem;
+      height: 1.125rem;
+    }
+  }
+}
+

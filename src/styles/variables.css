@@ -1,0 +1,33 @@
+:root {
+
+    --font-family: 'Montserrat';
+
+    --color-background-primary: #EAEAEA;
+    --color-background-secondary: #FFFFFF;
+
+    --color-text-primary: #1C1C27;
+    --color-text-secondary: #838383;
+    --color-price: #AAAAAA;
+
+    --color-links-primary: #000000;
+    --color-links-secondary: #101010;
+
+    --color-accent-primary: #FFA542;
+    --color-accent-secondary: #FFCE7F;
+    --color-accent-danger: #DF6464;
+
+    --logo-font-size: 1.5625rem;
+    --headers-font-size: 1.25rem;
+    --text-font-size: 1.0625rem;
+    --links-font-size: 0.9375rem;
+
+    --logo-font-weight: 700;
+    --headers-font-weight: 600;
+    --counter-font-weight: 500;
+    --text-font-weight: 400;
+
+    --grid-gap: 1.875rem;
+    --border-radius: 1.875rem;
+
+    --base-transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,49 @@
+body {
+    padding: 0.9375rem 11.375rem 0 11.375rem;
+    font-family: var(--font-family), sans-serif;
+    background-color: var(--color-background-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--color-links-secondary);
+    font-weight: var(--logo-font-weight);
+    font-size: var(--logo-font-size);
+}
+
+h2 {
+    color: var(--color-text-secondary);
+    font-size: var(--headers-font-size);
+    font-weight: var(--headers-font-weight);
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: var(--color-text-primary);
+    font-size: var(--text-font-size);
+    font-weight: var(--headers-font-weight);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.75rem;
+}
+
+button {
+    border: none;
+    background: none;
+    transition: var(--base-transition);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--base-transition);
+}
+
+a:hover, button:hover {
+    color: var(--color-text-secondary)
+}
