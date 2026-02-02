@@ -44,9 +44,25 @@
     }
   }
 
+  .prices {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
   &__price {
     text-align: right;
     color: var(--color-accent-primary);
+  }
+
+  &__oldPrice {
+    font-size: 0.8125rem;
+    text-decoration: line-through;
+    color: var(--color-accent-secondary);
+    text-align: right;
+    position: absolute;
+    top: calc(50% + 0.5rem);
+    right: 0;
   }
 
   &__buy-button {

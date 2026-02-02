@@ -2,6 +2,7 @@ export interface Product {
     id: number;
     name: string;
     price: number;
+    oldPrice?: number;
     rating: number;
     image: string;
     category: string;
@@ -12,6 +13,7 @@ export const products: Product[] = [
         id: 1,
         name: "Apple BYZ S852I",
         price: 2927,
+        oldPrice: 3527,
         rating: 4.7,
         image: 'images/apple-BYZ.jpg',
         category: "Наушники"

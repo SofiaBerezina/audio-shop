@@ -39,9 +39,23 @@
 .card__rate:before {
   content: url("../../assets/icons/star.svg");
 }
+.card .prices {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 .card__price {
   text-align: right;
   color: var(--color-accent-primary);
+}
+.card__oldPrice {
+  font-size: 0.8125rem;
+  text-decoration: line-through;
+  color: var(--color-accent-secondary);
+  text-align: right;
+  position: absolute;
+  top: calc(50% + 0.5rem);
+  right: 0;
 }
 .card__buy-button {
   text-align: right;

@@ -15,7 +15,16 @@ const Card: React.FC<CardProps> = ({product, addToCart}) => {
 
             <div className="card__content">
                 <h3 className="card__title">{product.name}</h3>
-                <span className="card__price">{product.price} ₽</span>
+
+                {product.oldPrice
+                    ?
+                    <div className="prices">
+                        <span className="card__price">{product.price} ₽</span>
+                        <span className="card__oldPrice">{product.oldPrice} ₽</span>
+                    </div>
+                    :
+                    <span className="card__price">{product.price} ₽</span>
+                }
                 <span className="card__rate">{product.rating}</span>
                 <button
                     className="card__buy-button"
